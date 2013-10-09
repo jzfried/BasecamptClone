@@ -115,6 +115,7 @@ h3{
 	text-decoration: none;
 }
 #child1 {
+	position: relative;
 	margin: 15px 20px 5px;
 	width: 160px;
 	display: inline-block;
@@ -127,6 +128,7 @@ h3{
 	background-image: linear-gradient(to bottom, #FFFFFF 0%, #E0E0E0 100%);
 }
 #child2 {
+	position: relative;
 	margin: 15px 20px 5px;
 	width: 160px;
 	display: inline-block;
@@ -139,6 +141,7 @@ h3{
 	background-image: linear-gradient(to bottom, #FFFFFF 0%, #E0E0E0 100%);
 }
 #child3 {
+	position: relative;
 	margin: 15px 20px 5px;
 	width: 160px;
 	display: inline-block;
@@ -201,8 +204,13 @@ h4{
 	font-size: 15px;
 	margin: 5px 0;
 }
-arrowImageRight {
-	position: relative;
-    right: 60px;
-   	top: -300px;
+.arrowImageRight {
+	position: absolute;
+    right: -25px;
+   	top: -50px;
+}
+.arrowImageLeft {
+	position: absolute;
+    left: -25px;
+   	top: -50px;
 }
